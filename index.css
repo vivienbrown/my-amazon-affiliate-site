@@ -1,0 +1,117 @@
+.mainpage {
+  margin: 0;
+  padding: 5%;
+  background-color: rgb(0, 0, 0);
+  color: rgb(199, 159, 58);
+  font-family: "Poppins", sans-serif;
+}
+
+.header__image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  border-top: 4px double rgb(199, 159, 58);
+  border-bottom: 4px double rgb(199, 159, 58);
+}
+
+.header__title {
+  margin: 0;
+  font-size: 3.5em;
+  font-family: "Satisfy", cursive;
+}
+
+.header__description {
+  margin: 0;
+}
+
+.header__tagline {
+  font-style: italic;
+  font-size: 1.1em;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid;
+  padding-bottom: 20px;
+}
+
+.section__heading {
+  margin: 0;
+  padding-top: 5%;
+  font-family: "Satisfy", cursive;
+  font-size: 2em;
+}
+
+.section__heading-paragraph {
+  font-style: italic;
+}
+
+.list__container {
+  list-style: none;
+  max-width: 400px;
+}
+
+.list__item {
+  display: flex;
+  justify-content: center;
+  color: rgb(199, 159, 58);
+  margin: 5px;
+  padding: 5px;
+  background-color: rgba(4, 0, 212, 0.247);
+  border-radius: 30px;
+}
+
+.list__item:link {
+  color: rgb(199, 159, 58);
+}
+
+.list__item:visited {
+  color: rgb(199, 159, 58);
+}
+
+.list__item:hover {
+  background-color: rgba(76, 74, 182, 0.37);
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.list__item-link {
+  text-decoration: none;
+}
+
+.list__item-link:active {
+  transform: scale(0.1);
+  transition: 0.1s;
+}
+
+.list__item-description {
+  padding: 0 25px;
+  color: rgb(199, 159, 58);
+  font-size: 0.9em;
+}
+
+.list__item-description:visited {
+  color: rgb(199, 159, 58);
+}
+
+.list__item-description:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.list__item-description:active {
+  transform: scale(5);
+  transition: 0.1s;
+}
+
+.footer {
+  padding-top: 20px;
+}
