@@ -15,7 +15,8 @@
 .header {
   display: flex;
   justify-content: center;
-  padding-top: 10px;
+  padding-top: 5%;
+  padding-bottom: 5%;
   border-top: 4px double rgb(199, 159, 58);
   border-bottom: 4px double rgb(199, 159, 58);
 }
@@ -40,7 +41,7 @@
   flex-direction: column;
   align-items: center;
   border-bottom: 1px solid;
-  padding-bottom: 20px;
+  padding-bottom: 5%;
 }
 
 .section__heading {
